@@ -9,14 +9,121 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "PunkBeer/Controller/BeerListTableViewController.swift"
-            timestampString = "590376995.641031"
+            filePath = "PunkBeer/Controller/FavoritesTableViewController.swift"
+            timestampString = "590456035.383526"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
-            landmarkName = "initData()"
-            landmarkType = "7">
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "FavoritesTableViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PunkBeer.FavoritesTableViewController.(viewModel in _18B12851C6FFC4C3AF1B495F312ED3FF).getter : Swift.Optional&lt;PunkBeer.FavoritesListViewModel&gt;"
+                  moduleName = "PunkBeer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/viniciuspontes/Dev/PunkBeer/PunkBeer/Controller/FavoritesTableViewController.swift"
+                  timestampString = "590455108.729076"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "114">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PunkBeer.FavoritesTableViewController.(viewModel in _18B12851C6FFC4C3AF1B495F312ED3FF).setter : Swift.Optional&lt;PunkBeer.FavoritesListViewModel&gt;"
+                  moduleName = "PunkBeer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/viniciuspontes/Dev/PunkBeer/PunkBeer/Controller/FavoritesTableViewController.swift"
+                  timestampString = "590455108.7317899"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PunkBeer.FavoritesTableViewController.(viewModel in _18B12851C6FFC4C3AF1B495F312ED3FF).modify : Swift.Optional&lt;PunkBeer.FavoritesListViewModel&gt;"
+                  moduleName = "PunkBeer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/viniciuspontes/Dev/PunkBeer/PunkBeer/Controller/FavoritesTableViewController.swift"
+                  timestampString = "590455108.734267"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PunkBeer.FavoritesTableViewController.(viewModel in _18B12851C6FFC4C3AF1B495F312ED3FF).modify : Swift.Optional&lt;PunkBeer.FavoritesListViewModel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "PunkBeer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/viniciuspontes/Dev/PunkBeer/PunkBeer/Controller/FavoritesTableViewController.swift"
+                  timestampString = "590455108.7366461"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PunkBeer.FavoritesTableViewController.init(style: __C.UITableViewStyle) -&gt; PunkBeer.FavoritesTableViewController"
+                  moduleName = "PunkBeer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/viniciuspontes/Dev/PunkBeer/PunkBeer/Controller/FavoritesTableViewController.swift"
+                  timestampString = "590455108.738544"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "35">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PunkBeer.FavoritesTableViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; PunkBeer.FavoritesTableViewController"
+                  moduleName = "PunkBeer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/viniciuspontes/Dev/PunkBeer/PunkBeer/Controller/FavoritesTableViewController.swift"
+                  timestampString = "590455108.740533"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "178">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PunkBeer.FavoritesTableViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;PunkBeer.FavoritesTableViewController&gt;"
+                  moduleName = "PunkBeer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/viniciuspontes/Dev/PunkBeer/PunkBeer/Controller/FavoritesTableViewController.swift"
+                  timestampString = "590455108.7432801"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "107">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

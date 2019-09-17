@@ -13,30 +13,72 @@ class BeerService {
     
     let pageCount = 25
     
-    func getBeer(page: Int, completion: @escaping ([Beer]?) -> ()) {
-        Alamofire.request("https://api.punkapi.com/v2/beers?page=\(page)&per_page=\(pageCount)").responseData { response -> Void in
+    func getBeer(page: Int, completion: @escaping ([Beer]?, String?) -> ()) {
+        Alamofire.request("\(Constants.apiUrl)?page=\(page)&per_page=\(pageCount)").responseData { response -> Void in
             
             switch response.result {
             case .success:
                 guard let data = response.data else {
-                    completion(nil)
+                    completion(nil, response.error?.localizedDescription)
                     return
                 }
-                
                 
                 do {
                     let decoder = JSONDecoder()
                     let res = try decoder.decode([Beer].self, from: data)
-                    completion(res)
+                    completion(res, nil)
                 } catch let error {
                     print(error)
-                    completion(nil)
+                    completion(nil, error.localizedDescription)
                 }
                 
                 break
                 
             case .failure:
-                completion(nil)
+                completion(nil, response.error?.localizedDescription)
+                break
+            }
+        }
+    }
+    
+    func getFavorites(completion: @escaping ([Beer]?, String?) -> ()) {
+        
+        let favorites = DBManager.sharedInstance.getDataFromDB()
+        
+        var ids = ""
+        for item in favorites {
+            ids += "\(item.id)|"
+        }
+        
+        ids = ids.trimmingCharacters(in: CharacterSet(charactersIn: "|"))
+        
+        let url = "\(Constants.apiUrl)?ids=\(ids)"
+        
+        // Alamofire craches with | character
+        let safeURL = url.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)!
+        
+        Alamofire.request(safeURL).responseData { response -> Void in
+            
+            switch response.result {
+            case .success:
+                guard let data = response.data else {
+                    completion(nil, response.error?.localizedDescription)
+                    return
+                }
+                
+                do {
+                    let decoder = JSONDecoder()
+                    let res = try decoder.decode([Beer].self, from: data)
+                    completion(res, nil)
+                } catch let error {
+                    print(error)
+                    completion(nil, error.localizedDescription)
+                }
+                
+                break
+                
+            case .failure:
+                completion(nil, response.error?.localizedDescription)
                 break
             }
         }

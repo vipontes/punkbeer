@@ -21,6 +21,21 @@
 		967282A1232FE0A400CB401B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9672829F232FE0A400CB401B /* LaunchScreen.storyboard */; };
 		967282AC232FE0A400CB401B /* PunkBeerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967282AB232FE0A400CB401B /* PunkBeerTests.swift */; };
 		967282B7232FE0A400CB401B /* PunkBeerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967282B6232FE0A400CB401B /* PunkBeerUITests.swift */; };
+		9683C6EF23314AB600D9103C /* beer.png in Resources */ = {isa = PBXBuildFile; fileRef = 9683C6ED23314AB600D9103C /* beer.png */; };
+		9683C6F023314AB600D9103C /* favorites.png in Resources */ = {isa = PBXBuildFile; fileRef = 9683C6EE23314AB600D9103C /* favorites.png */; };
+		9683C6F323315A2200D9103C /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9683C6F223315A2200D9103C /* FavoriteButton.swift */; };
+		9683C6F52331647B00D9103C /* Favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9683C6F42331647B00D9103C /* Favorite.swift */; };
+		9683C6F723316B8D00D9103C /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9683C6F623316B8D00D9103C /* DBManager.swift */; };
+		9683C6F923316F7100D9103C /* Realm+toArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9683C6F823316F7100D9103C /* Realm+toArray.swift */; };
+		96CF5C662331090200EB44CC /* AlertDisplayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CF5C652331090200EB44CC /* AlertDisplayer.swift */; };
+		96CF5C6B23311B5F00EB44CC /* BeerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CF5C6A23311B5F00EB44CC /* BeerTableViewCell.swift */; };
+		96CF5C6D233127CA00EB44CC /* BeerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CF5C6C233127CA00EB44CC /* BeerDetailViewController.swift */; };
+		96CF5C70233129EC00EB44CC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CF5C6F233129EC00EB44CC /* Constants.swift */; };
+		96DBCF8423317BF600E8F71C /* FavoritesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DBCF8323317BF600E8F71C /* FavoritesTableViewController.swift */; };
+		96DBCF8623317C5C00E8F71C /* FavoritesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DBCF8523317C5C00E8F71C /* FavoritesViewModel.swift */; };
+		96DBCF8823319F6B00E8F71C /* IngredientsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DBCF8723319F6B00E8F71C /* IngredientsTableViewController.swift */; };
+		96DBCF8A23319FB400E8F71C /* FoodPairingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DBCF8923319FB400E8F71C /* FoodPairingTableViewController.swift */; };
+		96DBCF8C2331A20600E8F71C /* IngredientsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DBCF8B2331A20600E8F71C /* IngredientsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +77,21 @@
 		967282B2232FE0A400CB401B /* PunkBeerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PunkBeerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		967282B6232FE0A400CB401B /* PunkBeerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunkBeerUITests.swift; sourceTree = "<group>"; };
 		967282B8232FE0A400CB401B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9683C6ED23314AB600D9103C /* beer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beer.png; sourceTree = "<group>"; };
+		9683C6EE23314AB600D9103C /* favorites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = favorites.png; sourceTree = "<group>"; };
+		9683C6F223315A2200D9103C /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		9683C6F42331647B00D9103C /* Favorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorite.swift; sourceTree = "<group>"; };
+		9683C6F623316B8D00D9103C /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		9683C6F823316F7100D9103C /* Realm+toArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Realm+toArray.swift"; sourceTree = "<group>"; };
+		96CF5C652331090200EB44CC /* AlertDisplayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertDisplayer.swift; sourceTree = "<group>"; };
+		96CF5C6A23311B5F00EB44CC /* BeerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerTableViewCell.swift; sourceTree = "<group>"; };
+		96CF5C6C233127CA00EB44CC /* BeerDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerDetailViewController.swift; sourceTree = "<group>"; };
+		96CF5C6F233129EC00EB44CC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		96DBCF8323317BF600E8F71C /* FavoritesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesTableViewController.swift; sourceTree = "<group>"; };
+		96DBCF8523317C5C00E8F71C /* FavoritesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewModel.swift; sourceTree = "<group>"; };
+		96DBCF8723319F6B00E8F71C /* IngredientsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsTableViewController.swift; sourceTree = "<group>"; };
+		96DBCF8923319FB400E8F71C /* FoodPairingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodPairingTableViewController.swift; sourceTree = "<group>"; };
+		96DBCF8B2331A20600E8F71C /* IngredientsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsViewModel.swift; sourceTree = "<group>"; };
 		C5F25F36CEFE8A89ACA47553 /* Pods-PunkBeer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PunkBeer.debug.xcconfig"; path = "Target Support Files/Pods-PunkBeer/Pods-PunkBeer.debug.xcconfig"; sourceTree = "<group>"; };
 		DD4A9C4C6E1938CFC3D98981 /* Pods-PunkBeer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PunkBeer.release.xcconfig"; path = "Target Support Files/Pods-PunkBeer/Pods-PunkBeer.release.xcconfig"; sourceTree = "<group>"; };
 		E9088F0BB5FE18F9D845186D /* Pods_PunkBeerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PunkBeerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -135,6 +165,10 @@
 		96728295232FE0A300CB401B /* PunkBeer */ = {
 			isa = PBXGroup;
 			children = (
+				9683C6F123315A0500D9103C /* SubClasses */,
+				9683C6EC23314AA200D9103C /* Images */,
+				96CF5C6E233129D400EB44CC /* Contants */,
+				96CF5C6923311B4D00EB44CC /* Cells */,
 				967282CA232FE20500CB401B /* Controller */,
 				967282C9232FE1BF00CB401B /* Extensions */,
 				967282C8232FE1AF00CB401B /* Services */,
@@ -168,6 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				9644F3FE233057CE001D2420 /* Beer.swift */,
+				9683C6F42331647B00D9103C /* Favorite.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -185,6 +220,8 @@
 			isa = PBXGroup;
 			children = (
 				9644F4002330591D001D2420 /* BeerListViewModel.swift */,
+				96DBCF8523317C5C00E8F71C /* FavoritesViewModel.swift */,
+				96DBCF8B2331A20600E8F71C /* IngredientsViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -203,6 +240,7 @@
 			isa = PBXGroup;
 			children = (
 				9644F40423305BF4001D2420 /* BeerService.swift */,
+				9683C6F623316B8D00D9103C /* DBManager.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -211,6 +249,8 @@
 			isa = PBXGroup;
 			children = (
 				9644F40223305B77001D2420 /* UIImageView+Cache.swift */,
+				96CF5C652331090200EB44CC /* AlertDisplayer.swift */,
+				9683C6F823316F7100D9103C /* Realm+toArray.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -219,8 +259,45 @@
 			isa = PBXGroup;
 			children = (
 				9644F3FC2330569E001D2420 /* BeerListTableViewController.swift */,
+				96CF5C6C233127CA00EB44CC /* BeerDetailViewController.swift */,
+				96DBCF8323317BF600E8F71C /* FavoritesTableViewController.swift */,
+				96DBCF8723319F6B00E8F71C /* IngredientsTableViewController.swift */,
+				96DBCF8923319FB400E8F71C /* FoodPairingTableViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		9683C6EC23314AA200D9103C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9683C6ED23314AB600D9103C /* beer.png */,
+				9683C6EE23314AB600D9103C /* favorites.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		9683C6F123315A0500D9103C /* SubClasses */ = {
+			isa = PBXGroup;
+			children = (
+				9683C6F223315A2200D9103C /* FavoriteButton.swift */,
+			);
+			path = SubClasses;
+			sourceTree = "<group>";
+		};
+		96CF5C6923311B4D00EB44CC /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				96CF5C6A23311B5F00EB44CC /* BeerTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		96CF5C6E233129D400EB44CC /* Contants */ = {
+			isa = PBXGroup;
+			children = (
+				96CF5C6F233129EC00EB44CC /* Constants.swift */,
+			);
+			path = Contants;
 			sourceTree = "<group>";
 		};
 		A755119243437F2C0BA1AC8F /* Frameworks */ = {
@@ -342,6 +419,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9644F3FB23305509001D2420 /* Main.storyboard in Resources */,
+				9683C6EF23314AB600D9103C /* beer.png in Resources */,
+				9683C6F023314AB600D9103C /* favorites.png in Resources */,
 				967282A1232FE0A400CB401B /* LaunchScreen.storyboard in Resources */,
 				9672829E232FE0A400CB401B /* Assets.xcassets in Resources */,
 			);
@@ -454,12 +533,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96DBCF8823319F6B00E8F71C /* IngredientsTableViewController.swift in Sources */,
 				9644F4012330591D001D2420 /* BeerListViewModel.swift in Sources */,
+				96DBCF8A23319FB400E8F71C /* FoodPairingTableViewController.swift in Sources */,
 				96728297232FE0A300CB401B /* AppDelegate.swift in Sources */,
+				96DBCF8623317C5C00E8F71C /* FavoritesViewModel.swift in Sources */,
 				9644F3FF233057CE001D2420 /* Beer.swift in Sources */,
+				96DBCF8423317BF600E8F71C /* FavoritesTableViewController.swift in Sources */,
+				9683C6F723316B8D00D9103C /* DBManager.swift in Sources */,
 				9644F3FD2330569E001D2420 /* BeerListTableViewController.swift in Sources */,
 				9644F40323305B77001D2420 /* UIImageView+Cache.swift in Sources */,
+				96CF5C70233129EC00EB44CC /* Constants.swift in Sources */,
+				96CF5C662331090200EB44CC /* AlertDisplayer.swift in Sources */,
 				9644F40523305BF4001D2420 /* BeerService.swift in Sources */,
+				96CF5C6D233127CA00EB44CC /* BeerDetailViewController.swift in Sources */,
+				9683C6F923316F7100D9103C /* Realm+toArray.swift in Sources */,
+				9683C6F52331647B00D9103C /* Favorite.swift in Sources */,
+				96DBCF8C2331A20600E8F71C /* IngredientsViewModel.swift in Sources */,
+				9683C6F323315A2200D9103C /* FavoriteButton.swift in Sources */,
+				96CF5C6B23311B5F00EB44CC /* BeerTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

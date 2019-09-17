@@ -25,7 +25,7 @@ struct Beer: Decodable {
     let attenuationLevel: Double?
     let volume: Volume?
     let boilVolume: BoilVolume?
-    
+    let ingredients: Ingredients?
     let foodPairing: [String]?
     let brewersTips: String?
     let contributedBy: String?
@@ -47,6 +47,7 @@ struct Beer: Decodable {
         case attenuationLevel = "attenuation_level"
         case volume
         case boilVolume = "boil_volume"
+        case ingredients
         case foodPairing = "food_pairing"
         case brewersTips = "brewers_tips"
         case contributedBy = "contributed_by"
@@ -54,8 +55,8 @@ struct Beer: Decodable {
 }
 
 struct Volume: Decodable {
-    let value: Int
-    let unit: String
+    let value: Int?
+    let unit: String?
     private enum CodingKeys: String, CodingKey {
         case value
         case unit
@@ -63,11 +64,58 @@ struct Volume: Decodable {
 }
 
 struct BoilVolume: Decodable {
-    let value: Int
-    let unit: String
+    let value: Int?
+    let unit: String?
     private enum CodingKeys: String, CodingKey {
         case value
         case unit
     }
 }
 
+struct Ingredients: Decodable {
+    let malt: [Malt]?
+    let hops: [Hops]?
+    private enum CodingKeys: String, CodingKey {
+        case malt
+        case hops
+    }
+}
+
+struct Malt: Decodable {
+    let name: String?
+    let amount: MaltAmount?
+    private enum CodingKeys: String, CodingKey {
+        case name
+        case amount
+    }
+}
+
+struct MaltAmount: Decodable {
+    let value: Double?
+    let unit: String?
+    private enum CodingKeys: String, CodingKey {
+        case value
+        case unit
+    }
+}
+struct Hops: Decodable {
+    let name: String?
+    let amount: HopsAmount?
+    let add: String?
+    let attribute: String?
+    private enum CodingKeys: String, CodingKey {
+        case name
+        case amount
+        case add
+        case attribute
+    }
+}
+
+struct HopsAmount: Decodable {
+    let value: Double?
+    let unit: String?
+    private enum CodingKeys: String, CodingKey {
+        case value
+        case unit
+    }
+}

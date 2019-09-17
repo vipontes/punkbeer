@@ -7,6 +7,11 @@
 //
 import Foundation
 
+protocol BeerViewModelDelegate: class {
+    func onFetchCompleted()
+    func onFetchFailed(with reason: String)
+}
+
 struct BeerViewModel {
     private let beer: Beer
 }
@@ -16,6 +21,24 @@ extension BeerViewModel {
     init(_ beer: Beer) {
         
         self.beer = beer
+    }
+}
+
+extension BeerViewModel {
+    func addToFavorites() {
+        let item = Favorite()
+        item.id = self.beer.id!
+        DBManager.sharedInstance.addData(object: item)
+    }
+    
+    func removeFromFavorites() {
+        let item = Favorite()
+        item.id = self.beer.id!
+        DBManager.sharedInstance.deleteFromDb(object: item)
+    }
+    
+    func getFavorites() -> [Favorite] {
+        return DBManager.sharedInstance.getDataFromDB().toArray(ofType: Favorite.self) as [Favorite]
     }
 }
 
@@ -53,29 +76,67 @@ extension BeerViewModel {
 }
 
 class BeerListViewModel {
-    var beers: [Beer]
+    private weak var delegate: BeerViewModelDelegate?
+    private var currentPage = 1
+    private var bottom = false
+    private var isFetchInProgress = false
+    var beers: [Beer] = []
     
-    init(beers:[Beer]) {
-        self.beers = beers
+    init(delegate: BeerViewModelDelegate) {
         
+        self.delegate = delegate
     }
-}
-
-extension BeerListViewModel {
+    
+    var reachedBottom: Bool {
+        
+        return bottom
+    }
+    
+    var currentCount: Int {
+        
+        return beers.count
+    }
     
     var numberOfSections: Int {
         
         return 1
     }
     
-    func numberOfRowsInSection(_ section: Int) -> Int {
-        
-        return self.beers.count
-    }
-    
     func beerAtIndex(_ index: Int) -> BeerViewModel {
         
         let beer = self.beers[index]
         return BeerViewModel(beer)
+    }
+    
+    func fetch() {
+
+        guard !isFetchInProgress else {
+            return
+        }
+        
+        isFetchInProgress = true
+        
+        BeerService().getBeer(page: self.currentPage) { res, strError in
+
+            if let beers = res {
+                
+                // chegou na última página
+                if (beers.count == 0) {
+                    self.isFetchInProgress = false
+                    self.bottom = true
+                    self.delegate?.onFetchCompleted()
+                    return
+                }
+                
+                self.currentPage += 1
+                self.isFetchInProgress = false
+                self.beers.append(contentsOf: beers)
+                
+                self.delegate?.onFetchCompleted()
+            } else {
+                self.isFetchInProgress = false
+                self.delegate?.onFetchFailed(with: strError!)
+            }
+        }
     }
 }
