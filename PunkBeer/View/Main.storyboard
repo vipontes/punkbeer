@@ -396,7 +396,7 @@
         <scene sceneID="3Kc-Y4-hjd">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="eWd-nw-8OT" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="beer.png" id="4SI-Q0-CYp"/>
+                    <tabBarItem key="tabBarItem" title="" image="Beer" id="4SI-Q0-CYp"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="cN4-P5-ott">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -415,7 +415,7 @@
         <scene sceneID="jUC-fG-iEq">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="uwF-kD-k9S" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="favorites.png" id="5C6-pI-se2"/>
+                    <tabBarItem key="tabBarItem" title="" image="Favorites" id="5C6-pI-se2"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="KIC-np-MMy">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -521,8 +521,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="beer.png" width="24" height="24"/>
-        <image name="favorites.png" width="24" height="24"/>
+        <image name="Beer" width="16" height="16"/>
+        <image name="Favorites" width="16" height="16"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="5G8-pd-lTU"/>

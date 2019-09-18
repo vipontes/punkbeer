@@ -54,7 +54,7 @@ class FavoriteButton: UIButton {
         isOn = bool
         
         let color = bool ? favButtonColor : .clear
-        let title = bool ? "Favorited" : "Favorite"
+        let title = bool ? NSLocalizedString("Favoritado", comment: "") : NSLocalizedString("Favoritar", comment: "") 
         let titleColor = bool ? .white : favButtonColor
         
         setTitle(title, for: .normal)
