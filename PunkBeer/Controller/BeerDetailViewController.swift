@@ -65,27 +65,29 @@ class BeerDetailViewController: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
+        guard let nav = segue.destination as? UINavigationController else {
+            return
+        }
+        
         if segue.identifier == "IngredientsTableViewController" {
-            guard let nav = segue.destination as? UINavigationController else {
-                return
-            }
             
             guard let vc = nav.viewControllers.first as? IngredientsTableViewController else {
                 return
             }
             
+            let ingredients = beerViewModel.ingredients
+            let vm = IngredientsViewModel(ingredients: ingredients!)
+            vc.viewModel = vm
             
         } else if segue.identifier == "FoodPairingTableViewController" {
-            guard let nav = segue.destination as? UINavigationController else {
-                return
-            }
-            
+
             guard let vc = nav.viewControllers.first as? FoodPairingTableViewController else {
                 return
             }
             
-            
+            let foodPairing = beerViewModel.foodPairing
+            let vm = FoodPairingViewModel(foodPairing: foodPairing!)
+            vc.viewModel = vm
         }
-        
     }
 }

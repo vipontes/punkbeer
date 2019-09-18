@@ -73,6 +73,16 @@ extension BeerViewModel {
         
         return self.beer.imageUrl
     }
+    
+    var ingredients: Ingredients? {
+        
+        return self.beer.ingredients
+    }
+    
+    var foodPairing: [String]? {
+        
+        return self.beer.foodPairing
+    }
 }
 
 class BeerListViewModel {

@@ -187,10 +187,18 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="ZgN-V6-Div">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="HopsCell" id="ZgN-V6-Div" customClass="HopsTableViewCell" customModule="PunkBeer" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ZgN-V6-Div" id="ZVF-PG-QA0">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MaltCell" id="otd-XQ-Gc5" customClass="MaltTableViewCell" customModule="PunkBeer" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="72" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="otd-XQ-Gc5" id="t5V-Ng-LMq">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
@@ -239,7 +247,7 @@
             </objects>
             <point key="canvasLocation" x="549" y="1352"/>
         </scene>
-        <!--PunkBeer-->
+        <!--Favorites-->
         <scene sceneID="EO4-16-2Wh">
             <objects>
                 <tableViewController id="g3v-Mk-uQy" customClass="FavoritesTableViewController" customModule="PunkBeer" customModuleProvider="target" sceneMemberID="viewController">
@@ -306,13 +314,13 @@
                             <outlet property="delegate" destination="g3v-Mk-uQy" id="ojf-X4-H2B"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="PunkBeer" id="upH-aV-hBg"/>
+                    <navigationItem key="navigationItem" title="Favorites" id="upH-aV-hBg"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jrL-Ey-21Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3044.9275362318845" y="1838.8392857142856"/>
         </scene>
-        <!--PunkBeer-->
+        <!--Let's have a beer!-->
         <scene sceneID="2Be-6b-hLP">
             <objects>
                 <tableViewController id="BD1-Za-Mhl" customClass="BeerListTableViewController" customModule="PunkBeer" customModuleProvider="target" sceneMemberID="viewController">
@@ -378,7 +386,7 @@
                             <outlet property="delegate" destination="BD1-Za-Mhl" id="9u4-LB-gjJ"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="PunkBeer" id="Go6-bL-Q4n"/>
+                    <navigationItem key="navigationItem" title="Let's have a beer!" id="Go6-bL-Q4n"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f0f-xg-xWf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -467,7 +475,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="1Hd-M3-BRx">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FoodPairingCell" id="1Hd-M3-BRx">
                                 <rect key="frame" x="0.0" y="28" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="1Hd-M3-BRx" id="R4b-bQ-ayS">
@@ -517,6 +525,6 @@
         <image name="favorites.png" width="24" height="24"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="pCo-XK-WDH"/>
+        <segue reference="5G8-pd-lTU"/>
     </inferredMetricsTieBreakers>
 </document>
