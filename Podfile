@@ -8,7 +8,6 @@ target 'PunkBeer' do
   # Pods for PunkBeer
   pod 'Alamofire', '4.9.0'
   pod 'SwiftyJSON', '5.0.0'
-  pod 'Toast-Swift', '~> 5.0.0'
   pod 'Hero', '1.4.0'
   pod 'RealmSwift', '3.18.0'
   
