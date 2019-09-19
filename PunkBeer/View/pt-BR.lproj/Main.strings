@@ -1,0 +1,66 @@
+
+/* Class = "UITabBarItem"; title = "Cervejas"; ObjectID = "4SI-Q0-CYp"; */
+"4SI-Q0-CYp.title" = "Cervejas";
+
+/* Class = "UITabBarItem"; title = "Favoritas"; ObjectID = "5C6-pI-se2"; */
+"5C6-pI-se2.title" = "Favoritas";
+
+/* Class = "UIButton"; normalTitle = "Ingredientes"; ObjectID = "7J0-Hi-NNB"; */
+"7J0-Hi-NNB.normalTitle" = "Ingredientes";
+
+/* Class = "UINavigationItem"; title = "Vamos tomar uma?!"; ObjectID = "Go6-bL-Q4n"; */
+"Go6-bL-Q4n.title" = "Vamos tomar uma?!";
+
+/* Class = "UIBarButtonItem"; title = "Fechar"; ObjectID = "Hah-rJ-4zT"; */
+"Hah-rJ-4zT.title" = "Fechar";
+
+/* Class = "UINavigationItem"; title = "Ingredientes"; ObjectID = "MVR-aR-53h"; */
+"MVR-aR-53h.title" = "Ingredientes";
+
+/* Class = "UINavigationItem"; title = "PunkBeer"; ObjectID = "Rbt-Yw-CQn"; */
+"Rbt-Yw-CQn.title" = "PunkBeer";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Xib-8W-df1"; */
+"Xib-8W-df1.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "bxd-RE-gHh"; */
+"bxd-RE-gHh.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "e7U-Ms-a0H"; */
+"e7U-Ms-a0H.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Favoritar"; ObjectID = "eIP-Qw-pxd"; */
+"eIP-Qw-pxd.normalTitle" = "Favoritar";
+
+/* Class = "UILabel"; text = "Primeira fabricação"; ObjectID = "fHP-Gh-X7O"; */
+"fHP-Gh-X7O.text" = "Primeira fabricação";
+
+/* Class = "UIButton"; normalTitle = "Comidas que combinam"; ObjectID = "fb6-4c-KWu"; */
+"fb6-4c-KWu.normalTitle" = "Comidas que combinam";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "jj8-WF-032"; */
+"jj8-WF-032.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "kKQ-Jt-5cC"; */
+"kKQ-Jt-5cC.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "nA6-4p-9uh"; */
+"nA6-4p-9uh.text" = "Label";
+
+/* Class = "UIBarButtonItem"; title = "Fechar"; ObjectID = "pIV-6Y-sFC"; */
+"pIV-6Y-sFC.title" = "Fechar";
+
+/* Class = "UINavigationItem"; title = "Comidas que combinam"; ObjectID = "q1l-A2-FwE"; */
+"q1l-A2-FwE.title" = "Comidas que combinam";
+
+/* Class = "UIBarButtonItem"; title = "Fechar"; ObjectID = "s8j-Ja-WvL"; */
+"s8j-Ja-WvL.title" = "Fechar";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "uFy-sM-Ana"; */
+"uFy-sM-Ana.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "Favorites"; ObjectID = "upH-aV-hBg"; */
+"upH-aV-hBg.title" = "Favorites";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "xw0-N2-Oge"; */
+"xw0-N2-Oge.text" = "Label";

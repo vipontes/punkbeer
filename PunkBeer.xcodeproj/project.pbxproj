@@ -94,7 +94,6 @@
 		96947F5A23322FB800B5ECBD /* Double+toString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+toString.swift"; sourceTree = "<group>"; };
 		96947F5E2332315400B5ECBD /* MaltTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaltTableViewCell.swift; sourceTree = "<group>"; };
 		969C984023340B33001C3B60 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
-		96AF8CA12332FBDA0088D9A7 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "pt-BR"; path = "pt-BR.lproj/Main.storyboard"; sourceTree = "<group>"; };
 		96AF8CA6233305B00088D9A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/HopsTableViewCell.xib; sourceTree = "<group>"; };
 		96AF8CAB233305BD0088D9A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/HopsTableViewCell.strings; sourceTree = "<group>"; };
 		96AF8CAD233306250088D9A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MaltTableViewCell.xib; sourceTree = "<group>"; };
@@ -111,6 +110,7 @@
 		96DBCF8723319F6B00E8F71C /* IngredientsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsTableViewController.swift; sourceTree = "<group>"; };
 		96DBCF8923319FB400E8F71C /* FoodPairingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodPairingTableViewController.swift; sourceTree = "<group>"; };
 		96DBCF8B2331A20600E8F71C /* IngredientsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsViewModel.swift; sourceTree = "<group>"; };
+		96E3EEA0233411000063BE43 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Main.strings"; sourceTree = "<group>"; };
 		C5F25F36CEFE8A89ACA47553 /* Pods-PunkBeer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PunkBeer.debug.xcconfig"; path = "Target Support Files/Pods-PunkBeer/Pods-PunkBeer.debug.xcconfig"; sourceTree = "<group>"; };
 		DD4A9C4C6E1938CFC3D98981 /* Pods-PunkBeer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PunkBeer.release.xcconfig"; path = "Target Support Files/Pods-PunkBeer/Pods-PunkBeer.release.xcconfig"; sourceTree = "<group>"; };
 		E9088F0BB5FE18F9D845186D /* Pods_PunkBeerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PunkBeerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -631,9 +631,9 @@
 		96AF8CA22332FBDA0088D9A7 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				96AF8CA12332FBDA0088D9A7 /* pt-BR */,
 				96AF8CB42333078A0088D9A7 /* Base */,
 				969C984023340B33001C3B60 /* en */,
+				96E3EEA0233411000063BE43 /* pt-BR */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

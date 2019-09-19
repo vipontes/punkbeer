@@ -29,9 +29,9 @@ pod 'Hero', '1.4.0'
 pod 'RealmSwift', '3.18.0'
 ```
 
-## Problemas conhecidos
+## Pontos que podem ser melhorados
 
-O scroll na tela de detalhes não está funcionando corretamente.
+Faz uma chamada a API toda vez que acessa o tab de favoritos. Para resolver isso, ao invés de armazenar somente o ID do item favoritado no Realm, poderia armazenar toda a estrutura do mesmo, dessa forma, a consulta aos favoritos seria local, sem precisar acessar a API.
 
 ## Licença de uso
 
