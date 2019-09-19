@@ -21,7 +21,6 @@ struct IngredientsViewModel {
     }
     
     var numberOfSections: Int {
-        
         return 2
     }
     
@@ -37,9 +36,9 @@ struct IngredientsViewModel {
     
     func titleForHeaderInSection(section: Int) -> String {
         if ( section == 0 ) {
-            return sectionTitle.hops.rawValue
+            return NSLocalizedString("Lúpulo", comment: "")
         } else if ( section == 1)  {
-            return sectionTitle.malt.rawValue
+            return NSLocalizedString("Malte", comment: "")
         }
         
         return ""

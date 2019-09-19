@@ -58,8 +58,8 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="r8M-lL-5Fm">
                                         <rect key="frame" x="0.0" y="0.0" width="139" height="35"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Brewed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fHP-Gh-X7O">
-                                                <rect key="frame" x="0.0" y="0.0" width="71" height="15.5"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Primeira fabricação" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fHP-Gh-X7O">
+                                                <rect key="frame" x="0.0" y="0.0" width="109.5" height="15.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -103,7 +103,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="VmP-hA-KGz"/>
                                 </constraints>
-                                <state key="normal" title="Ingredients">
+                                <state key="normal" title="Ingredientes">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
@@ -117,7 +117,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="pcj-k0-FtU"/>
                                 </constraints>
-                                <state key="normal" title="Food Pairing">
+                                <state key="normal" title="Comidas que combinam">
                                     <color key="titleColor" white="0.81125378329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
@@ -153,7 +153,7 @@
                         <viewLayoutGuide key="safeArea" id="oFh-6J-ylY"/>
                     </view>
                     <navigationItem key="navigationItem" title="PunkBeer" id="Rbt-Yw-CQn">
-                        <barButtonItem key="leftBarButtonItem" title="Close" id="pIV-6Y-sFC">
+                        <barButtonItem key="leftBarButtonItem" title="Fechar" id="pIV-6Y-sFC">
                             <connections>
                                 <action selector="closeButtonPressed" destination="JvA-ss-QMo" id="Kmv-Ci-b1C"/>
                             </connections>
@@ -178,7 +178,7 @@
             </objects>
             <point key="canvasLocation" x="5047.826086956522" y="916.74107142857133"/>
         </scene>
-        <!--Ingredients-->
+        <!--Ingredientes-->
         <scene sceneID="fSd-75-61p">
             <objects>
                 <tableViewController id="G05-hz-HJJ" customClass="IngredientsTableViewController" customModule="PunkBeer" customModuleProvider="target" sceneMemberID="viewController">
@@ -209,8 +209,8 @@
                             <outlet property="delegate" destination="G05-hz-HJJ" id="JF2-xb-nTd"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Ingredients" id="MVR-aR-53h">
-                        <barButtonItem key="leftBarButtonItem" title="Close" id="s8j-Ja-WvL">
+                    <navigationItem key="navigationItem" title="Ingredientes" id="MVR-aR-53h">
+                        <barButtonItem key="leftBarButtonItem" title="Fechar" id="s8j-Ja-WvL">
                             <connections>
                                 <action selector="closeButtonPressed" destination="G05-hz-HJJ" id="R48-Fq-Pa4"/>
                             </connections>
@@ -256,11 +256,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="BeerCell" rowHeight="150" id="JYv-qZ-yB0" customClass="BeerTableViewCell" customModule="PunkBeer" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="BeerCell" rowHeight="150" id="JYv-qZ-yB0" customClass="BeerTableViewCell" customModule="PunkBeer" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="414" height="150"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="JYv-qZ-yB0" id="izB-ph-6KH">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="149.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="376" height="149.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Mvc-Nt-93H">
@@ -271,7 +271,7 @@
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xib-8W-df1">
-                                            <rect key="frame" x="128" y="11" width="266" height="22"/>
+                                            <rect key="frame" x="128" y="11" width="240" height="22"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="22" id="ePo-jg-j1B"/>
                                             </constraints>
@@ -280,7 +280,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uFy-sM-Ana">
-                                            <rect key="frame" x="128" y="37" width="266" height="21"/>
+                                            <rect key="frame" x="128" y="37" width="240" height="21"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="X0x-YL-ISS"/>
                                             </constraints>
@@ -320,7 +320,7 @@
             </objects>
             <point key="canvasLocation" x="3044.9275362318845" y="1838.8392857142856"/>
         </scene>
-        <!--Let's have a beer!-->
+        <!--Vamos tomar uma?!-->
         <scene sceneID="2Be-6b-hLP">
             <objects>
                 <tableViewController id="BD1-Za-Mhl" customClass="BeerListTableViewController" customModule="PunkBeer" customModuleProvider="target" sceneMemberID="viewController">
@@ -329,11 +329,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="BeerCell" rowHeight="150" id="0bk-a8-vfN" customClass="BeerTableViewCell" customModule="PunkBeer" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="BeerCell" rowHeight="150" id="0bk-a8-vfN" customClass="BeerTableViewCell" customModule="PunkBeer" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="414" height="150"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0bk-a8-vfN" id="eMd-iW-eVz">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="149.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="376" height="149.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9d2-kL-oOO">
@@ -344,7 +344,7 @@
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jj8-WF-032">
-                                            <rect key="frame" x="128" y="11" width="266" height="22"/>
+                                            <rect key="frame" x="128" y="11" width="240" height="22"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="22" id="dha-G6-nGx"/>
                                             </constraints>
@@ -353,7 +353,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e7U-Ms-a0H">
-                                            <rect key="frame" x="128" y="37" width="266" height="21"/>
+                                            <rect key="frame" x="128" y="37" width="240" height="21"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="bq5-tP-8z5"/>
                                             </constraints>
@@ -386,7 +386,7 @@
                             <outlet property="delegate" destination="BD1-Za-Mhl" id="9u4-LB-gjJ"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Let's have a beer!" id="Go6-bL-Q4n"/>
+                    <navigationItem key="navigationItem" title="Vamos tomar uma?!" id="Go6-bL-Q4n"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f0f-xg-xWf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -466,7 +466,7 @@
             </objects>
             <point key="canvasLocation" x="6132" y="905"/>
         </scene>
-        <!--Food Pearing-->
+        <!--Comidas que combinam-->
         <scene sceneID="oKJ-We-vVx">
             <objects>
                 <tableViewController id="dZ9-2D-wZd" customClass="FoodPairingTableViewController" customModule="PunkBeer" customModuleProvider="target" sceneMemberID="viewController">
@@ -489,8 +489,8 @@
                             <outlet property="delegate" destination="dZ9-2D-wZd" id="EAw-Y4-1cR"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Food Pearing" id="q1l-A2-FwE">
-                        <barButtonItem key="leftBarButtonItem" title="Close" id="Hah-rJ-4zT">
+                    <navigationItem key="navigationItem" title="Comidas que combinam" id="q1l-A2-FwE">
+                        <barButtonItem key="leftBarButtonItem" title="Fechar" id="Hah-rJ-4zT">
                             <connections>
                                 <action selector="closeButtonPressed" destination="dZ9-2D-wZd" id="NRl-gK-YDE"/>
                             </connections>

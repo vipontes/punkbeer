@@ -1,0 +1,34 @@
+
+/* Class = "UIButton"; normalTitle = "Ingredients"; ObjectID = "7J0-Hi-NNB"; */
+"7J0-Hi-NNB.normalTitle" = "Ingredients";
+
+/* Class = "UINavigationItem"; title = "Let's have a beer!"; ObjectID = "Go6-bL-Q4n"; */
+"Go6-bL-Q4n.title" = "Let's have a beer!";
+
+/* Class = "UIBarButtonItem"; title = "Close"; ObjectID = "Hah-rJ-4zT"; */
+"Hah-rJ-4zT.title" = "Close";
+
+/* Class = "UINavigationItem"; title = "Ingredients"; ObjectID = "MVR-aR-53h"; */
+"MVR-aR-53h.title" = "Ingredients";
+
+/* Class = "UIButton"; normalTitle = "Favoritar"; ObjectID = "eIP-Qw-pxd"; */
+"eIP-Qw-pxd.normalTitle" = "Favorite";
+
+/* Class = "UILabel"; text = "First Brewed"; ObjectID = "fHP-Gh-X7O"; */
+"fHP-Gh-X7O.text" = "First Brewed";
+
+/* Class = "UIButton"; normalTitle = "Food Pairing"; ObjectID = "fb6-4c-KWu"; */
+"fb6-4c-KWu.normalTitle" = "Food Pairing";
+
+/* Class = "UIBarButtonItem"; title = "Close"; ObjectID = "pIV-6Y-sFC"; */
+"pIV-6Y-sFC.title" = "Close";
+
+/* Class = "UINavigationItem"; title = "Food Pearing"; ObjectID = "q1l-A2-FwE"; */
+"q1l-A2-FwE.title" = "Food Pearing";
+
+/* Class = "UIBarButtonItem"; title = "Close"; ObjectID = "s8j-Ja-WvL"; */
+"s8j-Ja-WvL.title" = "Close";
+
+/* Class = "UINavigationItem"; title = "Favorites"; ObjectID = "upH-aV-hBg"; */
+"upH-aV-hBg.title" = "Favorites";
+

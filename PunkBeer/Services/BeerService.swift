@@ -43,7 +43,7 @@ class BeerService {
     
     func getFavorites(completion: @escaping ([Beer]?, String?) -> ()) {
         
-        let favorites = DBManager.sharedInstance.getDataFromDB()
+        let favorites = RealmService.sharedInstance.getDataFromDB()
         
         var ids = ""
         for item in favorites {

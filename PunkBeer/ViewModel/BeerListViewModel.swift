@@ -28,17 +28,17 @@ extension BeerViewModel {
     func addToFavorites() {
         let item = Favorite()
         item.id = self.beer.id!
-        DBManager.sharedInstance.addData(object: item)
+        RealmService.sharedInstance.addData(object: item)
     }
     
     func removeFromFavorites() {
         let item = Favorite()
         item.id = self.beer.id!
-        DBManager.sharedInstance.deleteFromDb(object: item)
+        RealmService.sharedInstance.deleteFromDb(object: item)
     }
     
     func getFavorites() -> [Favorite] {
-        return DBManager.sharedInstance.getDataFromDB().toArray(ofType: Favorite.self) as [Favorite]
+        return RealmService.sharedInstance.getDataFromDB().toArray(ofType: Favorite.self) as [Favorite]
     }
 }
 

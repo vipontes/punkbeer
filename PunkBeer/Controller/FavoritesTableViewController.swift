@@ -107,7 +107,7 @@ extension FavoritesTableViewController: FavoritesViewModelDelegate {
     
     func onFetchFailed(with reason: String) {
         
-        let title = "Atenção"
+        let title = NSLocalizedString("Atenção", comment: "")
         let action = UIAlertAction(title: "OK", style: .default)
         displayAlert(with: title , message: reason, actions: [action])
     }

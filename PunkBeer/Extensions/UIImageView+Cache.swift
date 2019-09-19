@@ -43,7 +43,6 @@ extension UIImageView {
                           options: [.transitionCrossDissolve],
                           animations: {
                             self.image = image
-        },
-                          completion: nil)
+        }, completion: nil)
     }
 }
