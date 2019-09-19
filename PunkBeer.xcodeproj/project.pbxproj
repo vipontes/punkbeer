@@ -93,6 +93,7 @@
 		96947F5423321CCF00B5ECBD /* HopsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HopsTableViewCell.swift; sourceTree = "<group>"; };
 		96947F5A23322FB800B5ECBD /* Double+toString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+toString.swift"; sourceTree = "<group>"; };
 		96947F5E2332315400B5ECBD /* MaltTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaltTableViewCell.swift; sourceTree = "<group>"; };
+		969C984023340B33001C3B60 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		96AF8CA12332FBDA0088D9A7 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "pt-BR"; path = "pt-BR.lproj/Main.storyboard"; sourceTree = "<group>"; };
 		96AF8CA6233305B00088D9A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/HopsTableViewCell.xib; sourceTree = "<group>"; };
 		96AF8CAB233305BD0088D9A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/HopsTableViewCell.strings; sourceTree = "<group>"; };
@@ -101,7 +102,6 @@
 		96AF8CB2233306340088D9A7 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/MaltTableViewCell.strings"; sourceTree = "<group>"; };
 		96AF8CB32333064F0088D9A7 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/HopsTableViewCell.strings"; sourceTree = "<group>"; };
 		96AF8CB42333078A0088D9A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		96AF8CB5233307980088D9A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		96CF5C652331090200EB44CC /* AlertDisplayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertDisplayer.swift; sourceTree = "<group>"; };
 		96CF5C6A23311B5F00EB44CC /* BeerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerTableViewCell.swift; sourceTree = "<group>"; };
 		96CF5C6C233127CA00EB44CC /* BeerDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerDetailViewController.swift; sourceTree = "<group>"; };
@@ -633,7 +633,7 @@
 			children = (
 				96AF8CA12332FBDA0088D9A7 /* pt-BR */,
 				96AF8CB42333078A0088D9A7 /* Base */,
-				96AF8CB5233307980088D9A7 /* en */,
+				969C984023340B33001C3B60 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

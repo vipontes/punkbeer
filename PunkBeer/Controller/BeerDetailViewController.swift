@@ -23,7 +23,6 @@ class BeerDetailViewController: UIViewController {
     @IBOutlet weak var ingredientsButton: UIButton!
     @IBOutlet weak var foodPearingButton: UIButton!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         

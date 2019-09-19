@@ -1,34 +1,66 @@
 
-/* Class = "UIButton"; normalTitle = "Ingredients"; ObjectID = "7J0-Hi-NNB"; */
+/* Class = "UITabBarItem"; title = "Beers"; ObjectID = "4SI-Q0-CYp"; */
+"4SI-Q0-CYp.title" = "Beers";
+
+/* Class = "UITabBarItem"; title = "Favorites"; ObjectID = "5C6-pI-se2"; */
+"5C6-pI-se2.title" = "Favorites";
+
+/* Class = "UIButton"; normalTitle = "Ingredientes"; ObjectID = "7J0-Hi-NNB"; */
 "7J0-Hi-NNB.normalTitle" = "Ingredients";
 
-/* Class = "UINavigationItem"; title = "Let's have a beer!"; ObjectID = "Go6-bL-Q4n"; */
+/* Class = "UINavigationItem"; title = "Vamos tomar uma?!"; ObjectID = "Go6-bL-Q4n"; */
 "Go6-bL-Q4n.title" = "Let's have a beer!";
 
-/* Class = "UIBarButtonItem"; title = "Close"; ObjectID = "Hah-rJ-4zT"; */
+/* Class = "UIBarButtonItem"; title = "Fechar"; ObjectID = "Hah-rJ-4zT"; */
 "Hah-rJ-4zT.title" = "Close";
 
-/* Class = "UINavigationItem"; title = "Ingredients"; ObjectID = "MVR-aR-53h"; */
+/* Class = "UINavigationItem"; title = "Ingredientes"; ObjectID = "MVR-aR-53h"; */
 "MVR-aR-53h.title" = "Ingredients";
+
+/* Class = "UINavigationItem"; title = "PunkBeer"; ObjectID = "Rbt-Yw-CQn"; */
+"Rbt-Yw-CQn.title" = "PunkBeer";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Xib-8W-df1"; */
+"Xib-8W-df1.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "bxd-RE-gHh"; */
+"bxd-RE-gHh.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "e7U-Ms-a0H"; */
+"e7U-Ms-a0H.text" = "Label";
 
 /* Class = "UIButton"; normalTitle = "Favoritar"; ObjectID = "eIP-Qw-pxd"; */
 "eIP-Qw-pxd.normalTitle" = "Favorite";
 
-/* Class = "UILabel"; text = "First Brewed"; ObjectID = "fHP-Gh-X7O"; */
-"fHP-Gh-X7O.text" = "First Brewed";
+/* Class = "UILabel"; text = "Primeira fabricação"; ObjectID = "fHP-Gh-X7O"; */
+"fHP-Gh-X7O.text" = "First brewed";
 
-/* Class = "UIButton"; normalTitle = "Food Pairing"; ObjectID = "fb6-4c-KWu"; */
-"fb6-4c-KWu.normalTitle" = "Food Pairing";
+/* Class = "UIButton"; normalTitle = "Comidas que combinam"; ObjectID = "fb6-4c-KWu"; */
+"fb6-4c-KWu.normalTitle" = "Food pairing";
 
-/* Class = "UIBarButtonItem"; title = "Close"; ObjectID = "pIV-6Y-sFC"; */
+/* Class = "UILabel"; text = "Label"; ObjectID = "jj8-WF-032"; */
+"jj8-WF-032.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "kKQ-Jt-5cC"; */
+"kKQ-Jt-5cC.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "nA6-4p-9uh"; */
+"nA6-4p-9uh.text" = "Label";
+
+/* Class = "UIBarButtonItem"; title = "Fechar"; ObjectID = "pIV-6Y-sFC"; */
 "pIV-6Y-sFC.title" = "Close";
 
-/* Class = "UINavigationItem"; title = "Food Pearing"; ObjectID = "q1l-A2-FwE"; */
-"q1l-A2-FwE.title" = "Food Pearing";
+/* Class = "UINavigationItem"; title = "Comidas que combinam"; ObjectID = "q1l-A2-FwE"; */
+"q1l-A2-FwE.title" = "Food pairing";
 
-/* Class = "UIBarButtonItem"; title = "Close"; ObjectID = "s8j-Ja-WvL"; */
+/* Class = "UIBarButtonItem"; title = "Fechar"; ObjectID = "s8j-Ja-WvL"; */
 "s8j-Ja-WvL.title" = "Close";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "uFy-sM-Ana"; */
+"uFy-sM-Ana.text" = "Label";
 
 /* Class = "UINavigationItem"; title = "Favorites"; ObjectID = "upH-aV-hBg"; */
 "upH-aV-hBg.title" = "Favorites";
 
+/* Class = "UILabel"; text = "Label"; ObjectID = "xw0-N2-Oge"; */
+"xw0-N2-Oge.text" = "Label";

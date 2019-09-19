@@ -19,27 +19,25 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PUNKBEER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oEE-mF-AVY">
-                                <rect key="frame" x="20" y="204" width="374" height="88"/>
+                                <rect key="frame" x="79" y="70" width="256" height="64"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="88" id="9ZP-tr-p5a"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="240" id="vuq-z0-9mA"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="64"/>
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SplashImage" translatesAutoresizingMaskIntoConstraints="NO" id="p3V-bn-qnB">
-                                <rect key="frame" x="50" y="342" width="314" height="262"/>
+                                <rect key="frame" x="79" y="221" width="256" height="256"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="p3V-bn-qnB" firstAttribute="centerX" secondItem="oEE-mF-AVY" secondAttribute="centerX" id="5fY-Os-lfg"/>
-                            <constraint firstItem="p3V-bn-qnB" firstAttribute="top" secondItem="oEE-mF-AVY" secondAttribute="bottom" constant="50" id="GaQ-P5-7CR"/>
-                            <constraint firstItem="oEE-mF-AVY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="160" id="HDi-SP-c6O"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="p3V-bn-qnB" secondAttribute="bottom" constant="258" id="Hbb-Fq-jX6"/>
-                            <constraint firstItem="oEE-mF-AVY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Ujx-Xk-lBm"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oEE-mF-AVY" secondAttribute="trailing" constant="20" id="elc-b9-Nl0"/>
-                            <constraint firstItem="p3V-bn-qnB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="sSK-Zz-Sc8"/>
+                            <constraint firstItem="oEE-mF-AVY" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="8ZS-8P-FWI"/>
+                            <constraint firstItem="oEE-mF-AVY" firstAttribute="width" secondItem="p3V-bn-qnB" secondAttribute="width" id="Q97-9A-NOF"/>
+                            <constraint firstItem="p3V-bn-qnB" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="QLL-dp-uzi"/>
+                            <constraint firstItem="p3V-bn-qnB" firstAttribute="top" secondItem="oEE-mF-AVY" secondAttribute="bottom" constant="87" id="fhv-Yp-CCv"/>
+                            <constraint firstItem="oEE-mF-AVY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="26" id="uUB-1b-bDr"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
