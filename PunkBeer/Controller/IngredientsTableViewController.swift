@@ -20,7 +20,8 @@ class IngredientsTableViewController: UITableViewController, AlertDisplayer {
         self.tableView.register(UINib(nibName: "HopsTableViewCell", bundle: nil), forCellReuseIdentifier: "HopsCell")
         self.tableView.register(UINib(nibName: "MaltTableViewCell", bundle: nil), forCellReuseIdentifier: "MaltCell")
 
-        self.navigationController?.navigationBar.prefersLargeTitles = true
+        // Esta linha foi comentada o app está configurado para iOS 10.3 e o recurso abaixo só está disponível a partis do iOS 11
+        // self.navigationController?.navigationBar.prefersLargeTitles = true
     }
     
     @IBAction func closeButtonPressed() {

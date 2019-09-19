@@ -18,7 +18,8 @@ class BeerListTableViewController: UITableViewController, AlertDisplayer {
         super .viewDidLoad()
         tableView.isHidden = true
 
-        self.navigationController?.navigationBar.prefersLargeTitles = true
+        // Esta linha foi comentada o app está configurado para iOS 10.3 e o recurso abaixo só está disponível a partis do iOS 11
+        //self.navigationController?.navigationBar.prefersLargeTitles = true
         
         let spinner = UIActivityIndicatorView(activityIndicatorStyle: .gray)
         spinner.startAnimating()
