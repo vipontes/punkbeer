@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Bucket
+   uuid = "A55CC0F7-0B47-40B8-AF19-F7C7BBE368DD"
    type = "0"
    version = "2.0">
    <Breakpoints>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "58162C76-0F4B-4752-A4CC-75E5C8ADACEC"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -19,6 +21,7 @@
             landmarkType = "3">
             <Locations>
                <Location
+                  uuid = "58162C76-0F4B-4752-A4CC-75E5C8ADACEC - 136d0e1a821c90ac"
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -34,6 +37,7 @@
                   offsetFromSymbolStart = "114">
                </Location>
                <Location
+                  uuid = "58162C76-0F4B-4752-A4CC-75E5C8ADACEC - 136d0e1a821c90ac"
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -49,6 +53,7 @@
                   offsetFromSymbolStart = "128">
                </Location>
                <Location
+                  uuid = "58162C76-0F4B-4752-A4CC-75E5C8ADACEC - 136d0e1a821c90ac"
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -64,6 +69,7 @@
                   offsetFromSymbolStart = "18">
                </Location>
                <Location
+                  uuid = "58162C76-0F4B-4752-A4CC-75E5C8ADACEC - 5486995bbefba280"
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -79,6 +85,7 @@
                   offsetFromSymbolStart = "4">
                </Location>
                <Location
+                  uuid = "58162C76-0F4B-4752-A4CC-75E5C8ADACEC - 69d318faac193d9c"
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -94,6 +101,7 @@
                   offsetFromSymbolStart = "35">
                </Location>
                <Location
+                  uuid = "58162C76-0F4B-4752-A4CC-75E5C8ADACEC - 3d4d1351e9b0dc14"
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -109,6 +117,7 @@
                   offsetFromSymbolStart = "178">
                </Location>
                <Location
+                  uuid = "58162C76-0F4B-4752-A4CC-75E5C8ADACEC - f44cdd2fff72f768"
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"

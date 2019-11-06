@@ -95,6 +95,8 @@ class BeerListTableViewController: UITableViewController, AlertDisplayer {
     }
 }
 
+// MARK: Extensions
+
 extension BeerListTableViewController: BeerViewModelDelegate {
     func onFetchCompleted() {
 
