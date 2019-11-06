@@ -18,6 +18,8 @@ Utilizei também a biblioteca [HeroTransitions](https://github.com/HeroTransitio
 
 Também implementei a internacionalização da interface do app.
 
+![](screen1.png) ![](screen2.png)
+
 ## Dependências
 
 O código utiliza as seguintes pods:
